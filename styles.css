@@ -1,0 +1,278 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0b1e;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1b1c3b;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-btn {
+    background-color: #516bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.projects-btn {
+    background-color: #516bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #0a0b1e;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1b1c3b;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.hire-me-btn, .resume-btn {
+    background-color: #516bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.profile h2 {
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.profile p {
+    font-size: 1.2em;
+}
+
+.profile .buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #66fcf1;
+    border: none;
+    color: #0b0c10;
+    cursor: pointer;
+}
+
+#portfolio {
+    background: #1f2833;
+    padding: 50px 0;
+    color: #c5c6c7;
+}
+
+#portfolio h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#portfolio .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#portfolio .project {
+    width: 45%;
+    margin: 20px 0;
+    background: #0b0c10;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#portfolio .project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#portfolio .project h3 {
+    margin: 20px 0 10px;
+    font-size: 1.5em;
+}
+
+#achivements {
+    background: #1f2833;
+    padding: 50px 0;
+    color: #c5c6c7;
+}
+
+#achivements h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#achivements .achivements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#achivements .achivement {
+    width: 45%;
+    margin: 20px 0;
+    background: #1f2833;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#experience {
+    background: #1f2833;
+    padding: 50px 0;
+    color: #c5c6c7;
+}
+
+#experience h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#experience .experience {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+#experience img {
+    width: 100px;
+    margin: 20px;
+}
+
+#contact {
+    padding: 50px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background: #66fcf1;
+    border: none;
+    color: #0b0c10;
+    cursor: pointer;
+}
+
+footer {
+    background: #1f2833;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #c5c6c7;
+}
